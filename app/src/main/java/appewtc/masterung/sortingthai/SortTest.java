@@ -160,8 +160,16 @@ public class SortTest extends Activity {
         protected void onDraw(Canvas canvas) {
             super.onDraw(canvas);
 
-            Bitmap bitmap = BitmapFactory.decodeResource(getResources(), ints[anInt]);
-            canvas.drawBitmap(bitmap, 0, 0, mBitmapPaint);
+            int intWidth = canvas.getWidth();
+            int intHeight = canvas.getHeight();
+            Log.d("7febV1", "intWidth ==> " + intWidth);
+            Log.d("7febV1", "intHeight ==> " + intHeight);
+
+            Bitmap aBitmap = BitmapFactory.decodeResource(getResources(), ints[anInt]);
+            Bitmap indexConvas = Bitmap.createScaledBitmap(aBitmap, intWidth, intHeight, true);
+
+
+            canvas.drawBitmap(indexConvas, 0, 0, mBitmapPaint);
 
             canvas.drawBitmap( mBitmap, 0, 0, mBitmapPaint);
             canvas.drawPath( mPath,  mPaint);
