@@ -58,11 +58,11 @@ public class SortTest extends Activity {
         mPaint = new Paint();
         mPaint.setAntiAlias(true);
         mPaint.setDither(true);
-        mPaint.setColor(Color.MAGENTA);    // Color of Pen
+        mPaint.setColor(Color.BLUE);    // Color of Pen เปลี่ยนสี
         mPaint.setStyle(Paint.Style.STROKE);
         mPaint.setStrokeJoin(Paint.Join.ROUND);
         mPaint.setStrokeCap(Paint.Cap.ROUND);
-        mPaint.setStrokeWidth(24);   // Size of Pen
+        mPaint.setStrokeWidth(50);   // Size of Pen เปลี่ยนขนาด
         anInt = getIntent().getIntExtra("Index", 0);
 
 
