@@ -21,9 +21,9 @@ public class SortTest extends Activity {
 
     DrawingView dv ;
     private Paint mPaint;
-    private int[] ints = new int[]{R.drawable.index0,
-            R.drawable.index1,R.drawable.index2,R.drawable.index3,
-            R.drawable.index4,R.drawable.index5,R.drawable.index6,
+    private int[] ints = new int[]{R.drawable.a0,
+            R.drawable.a1,R.drawable.a2,R.drawable.a3,
+            R.drawable.a4,R.drawable.index5,R.drawable.index6,
             R.drawable.index7,R.drawable.index8,R.drawable.index9,
             R.drawable.index10,R.drawable.index11,R.drawable.index12,
             R.drawable.index13,R.drawable.index14,R.drawable.index15,
