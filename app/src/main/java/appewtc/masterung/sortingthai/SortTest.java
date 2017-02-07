@@ -21,6 +21,8 @@ public class SortTest extends Activity {
 
     DrawingView dv ;
     private Paint mPaint;
+
+    //รูปภาพตัวอักษร A-Z
     private int[] ints = new int[]{R.drawable.a0,
             R.drawable.a1,R.drawable.a2,R.drawable.a3,
             R.drawable.a4,R.drawable.index5,R.drawable.index6,
@@ -37,10 +39,14 @@ public class SortTest extends Activity {
             R.drawable.index37,R.drawable.index38,R.drawable.index39,
             R.drawable.index40,R.drawable.index41,R.drawable.index42,
             R.drawable.index43,};
+
+    //ค่าindexที่รับมาจาก ListView
     private int anInt;
-    private int[] spackInts = new int[]{R.raw.index0, R.raw.index1,
-            R.raw.index2, R.raw.index3, R.raw.index4, R.raw.index5,
-            R.raw.index6, R.raw.index7, R.raw.index8, R.raw.index9,
+
+    //ไฟล์ mp3 ที่เป็นเสียงอักษร
+    private int[] spackInts = new int[]{R.raw.a0, R.raw.a1,
+            R.raw.a2, R.raw.a3, R.raw.a4, R.raw.a5,
+            R.raw.a6, R.raw.a7, R.raw.index8, R.raw.index9,
             R.raw.index10};
 
     @Override
